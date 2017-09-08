@@ -35,7 +35,7 @@ $("#submit").on("click", function(event) {
 
 $("body").on("click", "button", function() {
     var zelda = $(this).attr("data");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         zelda + "&api_key=02a62aa40d354a8c98846683add9bdd4&limit=4";
 
     $.ajax({
